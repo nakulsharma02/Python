@@ -5,8 +5,6 @@
 # print(type(b))#floating point numbers
 # k = 2 + 3j
 # print(k) # complex numbers
-# d = True
-# print(type(d))#boolean data type note-always start value with caps letter
 # c = "this is type"
 # print(type(c))#string #sequence 
 # e = {'this','you','your'}
@@ -23,13 +21,14 @@
 # i = None
 # print(type(i))#None DataType
 ##Bool Datatypes
-a=bool(5)
-print(a)
+# a=bool(56<200)
+# print(a)
 ##Binary Datatypes
 #bytes
-x=bytes(5)
+x=b'hello'
 print(x)
-y=bytearray(5)
+y=bytearray(x)
+y[0]=72
 print(y)
-z=memoryview(bytes(5))
-print(z) 
+z=memoryview(y)
+print(z[0]) 
