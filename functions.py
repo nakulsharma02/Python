@@ -26,3 +26,5 @@ parameters are declared at the time of function defination and declaration
 #         return 1
 #     return n*fact(n-1)
 # print(f'The factorial of {n} is',fact(n))
+lambdafunc = lambda a=0,b=0 : print(a+b) if a and b else print("Please enter valid numbers")
+lambdafunc()
