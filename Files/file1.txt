@@ -1,0 +1,8 @@
+100 - rs remaining
+this is the 2nd line
+this is the Third line
+This is a new line for word count.
+This is a new line for word count.
+This is a new line for word count.
+This is a new line for word count.
+This is a new line for word count.
