@@ -23,6 +23,9 @@ ramesh = human1("Ramesh")
 ramesh.age(25)
 suresh = human2("Suresh")
 suresh.age(30)
+isinstance(ramesh, Human)  # True, It is a fumction to check whether an object is an instance of a class or a subclass.
+issubclass(human1, Human)  # True, It is a function to check whether a class is a subclass of another class.
+
 # Output:
 # I am a human
 # My name is Ramesh
