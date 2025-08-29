@@ -9,4 +9,3 @@ except UserException as e:
     e.print_exception()
 finally:
     print("This block always executes, regardless of whether an exception was raised or not.")
-    
