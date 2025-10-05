@@ -23,7 +23,7 @@ if __name__ == "__main__":
     print(result)'''
 # Optional Argument
 import argparse
-if __name__ == "__main__":
+'''if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--number1",help="first number")
     parser.add_argument("--number2",help="Second number")
@@ -42,4 +42,18 @@ if __name__ == "__main__":
         result = n1*n2
     else:
         raise "Invalid Operation"
-    print(result)
+    print(result)'''
+if __name__=='__main__':
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--Number1',help="First Number")
+    parser.add_argument('--Number2',help="Second Number")
+    parser.add_argument('--Operation',help="Operation")
+    args = parser.parse_args()
+    print(args.Number1)
+    print(args.Number2)
+    print(args.Operation)
+    if args.Operation == "sum":
+        def sum():
+            return int(args.Number1)+int(args.Number2)
+        print(sum())
+    
