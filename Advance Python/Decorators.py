@@ -1,5 +1,5 @@
 import time
-def time_it(func):
+'''def time_it(func):
     def wrapper(*args,**kwargs):
         start = time.time()
         result = func(*args,**kwargs)
@@ -22,4 +22,25 @@ def cal_cube(numbers):
         result.append(number*number*number)
     return result
 cubes = cal_cube(15)
-print(cubes)
+print(cubes)'''
+def time_it(func):
+    def wrapper(*args,**kwargs):
+         start = time.time()
+         result = func(*args,**kwargs)
+         end = time.time()
+         print("The Time taken by function is:",(end-start)*1000,"Milliseconds")
+         return result
+    return wrapper
+@time_it
+def square(number):
+     result = []
+     for i in range(number):
+          return result.append(number*number)
+square(5)
+@time_it
+def print_name(name):
+     return name
+name = print_name("Rahul")
+print(name)
+
+     
