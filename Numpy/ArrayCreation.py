@@ -18,3 +18,4 @@ print(filled_array)
 # arange(start,stop,steps)
 arr = np.arange(3.35,56.12,10.12)
 print(arr)
+'''Note -> Default value of step will be 1'''
