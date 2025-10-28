@@ -1,3 +1,4 @@
+# Aggregate functions in NumPy are operations that compute a summary statistic across all elements in an array or along a specified axis. They "aggregate" multiple values into a single result.
 # These Functions are used to perform basic operations on array elements to give a single output or desired output
 # np.sum(array) -> sum of array elements
 # np.mean(array) -> average of array elements
