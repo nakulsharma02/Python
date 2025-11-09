@@ -19,3 +19,7 @@ print(filled_array)
 arr = np.arange(3.35,56.12,10.12)
 print(arr)
 '''Note -> Default value of step will be 1'''
+
+# with the help of linspace
+array = np.linspace(0,20,5)
+print(array)
