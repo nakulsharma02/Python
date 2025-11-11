@@ -1,0 +1,10 @@
+import pandas as pd
+df = pd.read_csv("Company.csv")
+print("Display the rows using default head parameter which is 5 :")
+print(df.head())
+print("Display the rows using default tail parameter which is 5 :")
+print(df.tail())
+print("Display the above 4 rows : ")
+print(df.head(4))
+print("Display the last 4 rows : ")
+print(df.tail(4))
