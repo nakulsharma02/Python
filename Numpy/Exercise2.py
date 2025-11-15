@@ -28,3 +28,20 @@ for i in range(rows):
             result = np.append(result,mat[i][1])
 print(result)
 
+# Ques-4 
+# 4. Given a matrix mat, sort it by the second column.
+import numpy as np
+mat = np.array([[1,21,3],[5,4,2],[56,12,4]])
+mat_new = np.argsort((mat[:,1]),axis=0)
+mat = mat[mat_new]
+print(mat)
+'''For multiple columns use lexsort() method of numpy'''
+
+#  Find the nearest number from the given number in an array.
+# Use Argmin
+arr = np.array([10,55,22,3,6,44,9,54])
+nearest_to = 50
+# numpy.argmin(a, axis=None, out=None, *, keepdims=<no value>)
+absolute_diff = np.abs(arr - nearest_to)
+min_index = np.argmin(absolute_diff)
+print(arr[min_index])
