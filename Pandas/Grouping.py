@@ -13,3 +13,4 @@ print(grouped)
 # For Multiple Column
 grouped = data.groupby(["Age","Name"])["Salary"].sum()
 print(grouped)
+# We can also use sum() , mean() , count(), min() , max() , std()

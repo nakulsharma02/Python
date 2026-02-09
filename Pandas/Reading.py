@@ -11,3 +11,5 @@ print(df)
 print("Read JSON File : ")
 df = pd.read_json("Company.json")
 print(df)
+# gesf library is used for reading the cloud data.
+# Note : If data is too large use for loop for reading the data.

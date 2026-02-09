@@ -32,3 +32,13 @@ print(data)
 print("After Interpolation -> ")
 data['Value'] = data['Value'].interpolate(method = "linear")
 print(data)
+
+# How interpolation works 
+'''When a value is missing, Pandas draws a line/curve between the two known points and picks the value on that line.'''
+
+# Used in 
+'''
+1. Timer series data.
+2. Numeric data with trends. 
+3. Avoid dropping rows.
+'''
