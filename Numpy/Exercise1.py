@@ -25,4 +25,3 @@ arr2_mat = arr2.reshape(2,3)
 print(arr1_mat,arr2_mat)
 solution = (((arr1_mat + arr2_mat)*(arr1_mat - arr2_mat))/(arr1_mat-arr2_mat))
 print(solution)
- 

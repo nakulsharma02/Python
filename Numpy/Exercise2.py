@@ -45,3 +45,18 @@ nearest_to = 50
 absolute_diff = np.abs(arr - nearest_to)
 min_index = np.argmin(absolute_diff)
 print(arr[min_index])
+
+# 5. Given an array arr, find the top 4 maximum values.
+
+ 
+import numpy as np
+arr = np.array([90, 14, 24, 13, 13, 590, 0, 45, 16, 50])
+arr1 = np.sort(arr)
+sorted_desc = arr1[::-1]
+print("The Top Four Maximum Values are:")
+print(sorted_desc[0:4])
+
+# Using argpartition()
+arr2indices = np.argpartition(arr,-1)
+arr2 = arr[arr2indices[-4:]]
+print(arr2)
